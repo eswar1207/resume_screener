@@ -4,7 +4,7 @@ from backend.job_loader import load_jobs_from_csv
 from backend.praser import extract_resumes
 from backend.embedder import match_resumes_to_job
 
-st.title("GenAI Resume Screener")
+st.title("AI Resume Screener")
 
 def extract_name(text):
     # Look for patterns like Name: Mark Griffin or name=Mark Griffin (case-insensitive)
