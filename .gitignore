@@ -1,0 +1,32 @@
+output/
+# Ignore virtual environments
+.venv/
+venv/
+
+# Ignore model checkpoints, outputs, and large training data
+checkpoints/
+output/
+Resource/
+resumes/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Jupyter Notebook checkpoints (if used)
+.ipynb_checkpoints/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# VSCode settings (optional)
+.vscode/
+
+# Ignore logs
+*.log
+
+# Ignore temporary files
+*.tmp
+*.bak
+*.swp
