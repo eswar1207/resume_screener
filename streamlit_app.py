@@ -28,7 +28,7 @@ def extract_contact(text):
 
 # Upload job description CSV
 job_csv = st.file_uploader("Upload Job Description CSV", type=["csv"])
-resume_folder = st.text_input("Path to Resume Folder", value=r"C:\Users\siva\projects\genai_resume_screener\Resource\CVs1")
+resume_folder = st.text_input("Path to Resume Folder", value=r"Resource/CVs1")
 
 if job_csv and resume_folder:
     jobs = load_jobs_from_csv(job_csv)
